@@ -1,0 +1,214 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(images/Capture.PNG);
+    background-size: cover;
+    margin: 0;
+
+    
+    
+   
+}
+form{
+    text-align: center;
+    background-color: rgba(128,128,128,0.8);
+    color: aliceblue;
+    height: auto;
+    margin: auto;
+    width: 33em;
+    border-radius: 15px;
+    box-shadow: 5px 4px 1px;
+}
+
+
+legend{
+
+    
+    
+    font-size: 1.5em;
+    text-shadow:2px 2px 5px #060606;
+    color: antiquewhite;
+    font-weight:800;
+    
+}
+
+label{
+    display: block;
+    color: rgb(206, 196, 139);
+    font-weight: bold;
+    font-size: 1.6em;
+    text-shadow:1px 1px 3px #060606;
+    
+    
+}
+
+
+
+input{
+    height: 2.2em;
+    background-color: rgba(103, 97, 97, 0.491);
+    border:solid 2px rgba(255, 255, 255, 0.6);
+    border-radius :15px;
+    width: 16em;
+    color: azure;
+
+}
+
+select{
+    height: 2.7em;
+    border-radius :15px;
+    background-color: rgba(103, 97, 97, 0.491);
+    border:solid 2px rgba(255, 255, 255, 0.6);
+    width: 16em;
+    color:#ffffff83;
+    text-align: center;
+}
+input::placeholder{
+    color:#ffffff83;
+
+}
+
+p{
+    margin-bottom: 2.5em;
+    transition:0.7ms ease;
+}
+
+
+
+option{
+    
+    color: #ffffff83 ;
+    font-size: 700;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.inl {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    width: 1em;
+    height: 1em;
+}
+
+
+input[type="submit"]{
+    box-shadow: 5px 4px 1px;
+    height: 3.3em;
+    margin-bottom: 1.5em;
+    background-color: rgba(0, 0, 0, 0.429);
+    border: solid 3px white;
+    transition: 0.7s ease;
+    font-weight: 900;
+    
+}
+
+input[type="submit"]:hover{
+    transform: scale(1.1);
+    text-shadow: 0 0 15px white;
+}
+
+
+textarea{
+    background-color: rgba(128, 128, 128, 0.635);
+    border:solid 3px #ffffff83;
+    color: aliceblue;
+    
+    border-radius: 8px;
+}
+
+textarea::placeholder{
+    color: #ffffff83;
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+fieldset{
+    border: solid 3px #ffffff83;
+    border-radius: 8px;
+    margin: 0.3em;
+}
+
+p:hover{
+    transform: scale(1.1);
+}
+
+#text:hover{
+    transform:none;
+    
+}
+
+input:hover{
+    border-color: white;
+    
+}
+
+textarea:hover{
+    border-color: white;
+    
+}
+
+select:hover{
+    border-color: white;
+}
+
+
+
+
+
+
+
+label[for="yes"],label[for="no"],label[for="c1"],label[for="c2"],label[for="c3"],label[for="c4"]{
+    font-size: 1em;
+    
+    color: wheat;
+    transition: 8ms ease;
+}
+
+
+label[for="yes"]:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    text-shadow: 0 0 10px white;
+}
+
+label[for="no"]:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    text-shadow: 0 0 10px white;
+}
+
+label[for="c1"]:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    text-shadow: 0 0 10px white;
+}
+
+label[for="c2"]:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    text-shadow: 0 0 10px white;
+}
+
+label[for="c3"]:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    text-shadow: 0 0 10px white;
+}
+
+label[for="c4"]:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    text-shadow: 0 0 10px white;
+}
+
+

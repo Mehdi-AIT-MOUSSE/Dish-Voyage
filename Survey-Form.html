@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dish Voyage Form</title>
+    <link rel="stylesheet" href="Survey-Form-style.css">
+</head>
+<body>
+
+    <section>
+        <form id="survey-form" method="post">
+            <fieldset>
+                <legend>Dish Voyage Form</legend>
+                <p>
+                    <label for="name" >First Name </label>
+                    <input type="text" id="name" placeholder="Enter your first name" required>
+                </p>
+
+                <p>
+                    <label for="family" >Family Name </label>
+                    <input type="text" id="family" placeholder="Enter your family name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email </label>
+                    <input type="email" id="email" placeholder="Enter your Email" required>
+                </p>
+
+                <p>
+                    <label for="number">Age </label>
+                    <input type="number" id="number" placeholder="Age" max="120" min="0" required>
+                </p>
+           
+            
+                <p>
+                    <label for="tastes">What type of tastes do you enjoy? </label>
+                    <select id="tastes">
+                            <option>Salty</option>
+                            <option>Sweet</option>
+                            <option>Savory</option>
+                            <option>Spicy</option>
+                            <option>Sour</option>
+                            <option>Bitter</option>
+                            <option>All</option>
+                            <option>Other</option>
+                            
+                    </select>
+                </p>
+
+                <p >
+
+                    <label for="radio">Did you see your favorite food in the menu?</label>
+
+                        
+                    <label for="yes" class="inl"><input type="radio" name="radio"  id="yes" > Yes</label>
+                    
+                        
+                    <label for="no" class="inl"><input type="radio"  name="radio"  id="no"> No</label>
+
+                    
+                </p>
+
+                <p>
+                    <label for="checkbox">Spice Level Preferences:</label>
+                    <input class="inl" type="checkbox" name="checkbox" id="c1">
+                    <label class="inl" for="c1" >Mild</label>
+                    <input class="inl" type="checkbox" name="checkbox" id="c2">
+                    <label class="inl" for="c2" > Medium</label>
+                    <input class="inl" type="checkbox" name="checkbox" id="c3">
+                    <label class="inl" for="c3" >Spicy</label>
+                    <input class="inl" type="checkbox" name="checkbox" id="c4">
+                    <label class="inl" for="c4" >Non-Spicy</label>
+
+                </p>
+
+                <p id="text">
+                    <textarea id="" cols="60" rows="10" placeholder="Do you have a memorable food experience or a dish that holds a special place in your memory?"></textarea>
+                </p>
+            </fieldset>
+                <p>
+                    <input type="submit" value="Submit">
+                </p>
+                
+
+ 
+
+ 
+
+
+        </form>
+    </section>
+</body>
+</html>
